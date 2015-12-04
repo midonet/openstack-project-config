@@ -6010,6 +6010,21 @@ projects:
     release:
       - merlin-js-release-master
 
+  - name: openstack/midonet
+    template:
+      - name: merge-check
+      - name: noop-jobs
+
+  - name: openstack/midonet-docs
+    template:
+      - name: merge-check
+      - name: noop-jobs
+
+  - name: openstack/midonet-sandbox
+    template:
+      - name: merge-check
+      - name: noop-jobs
+
   - name: openstack/mistral
     template:
       - name: merge-check
