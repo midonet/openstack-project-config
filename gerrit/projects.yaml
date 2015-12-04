@@ -1774,23 +1774,6 @@
 - project: openstack/merlin
   description: Framework for building UIs for OpenStack projects dealing with complex
     input data
-- project: openstack/mistral
-  description: Workflow Service for OpenStack.
-  acl-config: /home/gerrit2/acls/openstack/mistral.config
-- project: openstack/mistral-dashboard
-  description: Mistral Horizon plugin.
-  groups:
-    - mistral
-  acl-config: /home/gerrit2/acls/openstack/mistral.config
-- project: openstack/mistral-extra
-  description: Additional tools and examples for Mistral Workflow Service.
-  groups:
-    - mistral
-  acl-config: /home/gerrit2/acls/openstack/mistral.config
-- project: openstack/mistral-specs
-  description: OpenStack Workflow (Mistral) Specifications
-  groups:
-    - mistral
 - project: openstack/midonet
   description: MidoNet network virtualization
   upstream: https://github.com/midonet/midonet.git
@@ -1809,6 +1792,23 @@
   groups:
    - midonet
   acl-config: /home/gerrit2/acls/openstack/midonet.config
+- project: openstack/mistral
+  description: Workflow Service for OpenStack.
+  acl-config: /home/gerrit2/acls/openstack/mistral.config
+- project: openstack/mistral-dashboard
+  description: Mistral Horizon plugin.
+  groups:
+    - mistral
+  acl-config: /home/gerrit2/acls/openstack/mistral.config
+- project: openstack/mistral-extra
+  description: Additional tools and examples for Mistral Workflow Service.
+  groups:
+    - mistral
+  acl-config: /home/gerrit2/acls/openstack/mistral.config
+- project: openstack/mistral-specs
+  description: OpenStack Workflow (Mistral) Specifications
+  groups:
+    - mistral
 - project: openstack/monasca-agent
   description: Agent for Monasca
   groups:
