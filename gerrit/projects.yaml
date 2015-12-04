@@ -1791,6 +1791,24 @@
   description: OpenStack Workflow (Mistral) Specifications
   groups:
     - mistral
+- project: openstack/midonet
+  description: MidoNet network virtualization
+  upstream: https://github.com/midonet/midonet.git
+  groups:
+   - midonet
+  acl-config: /home/gerrit2/acls/openstack/midonet.config
+- project: openstack/midonet-docs
+  description: MidoNet docs
+  upstream: https://github.com/midonet/midonet-docs.git
+  groups:
+   - midonet
+  acl-config: /home/gerrit2/acls/openstack/midonet.config
+- project: openstack/midonet-sandbox
+  description: MidoNet sandbox
+  upstream: https://github.com/midonet/midonet-sandbox.git
+  groups:
+   - midonet
+  acl-config: /home/gerrit2/acls/openstack/midonet.config
 - project: openstack/monasca-agent
   description: Agent for Monasca
   groups:
