@@ -197,6 +197,7 @@ midonet:
     - openstack/midonet-docs
     - openstack/midonet-sandbox
     - openstack/networking-midonet
+    - openstack/python-midonetclient
   branches:
     - master
 

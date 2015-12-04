@@ -2567,6 +2567,12 @@
     - translate
 - project: openstack/python-manilaclient
   description: Python bindings for Manila
+- project: openstack/python-midonetclient
+  description: Python client for MidoNet network virtualization
+  upstream: https://github.com/midonet/python-midonetclient.git
+  groups:
+   - midonet
+  acl-config: /home/gerrit2/acls/openstack/midonet.config
 - project: openstack/python-mistralclient
   description: Python client for Mistral REST API.
   groups:

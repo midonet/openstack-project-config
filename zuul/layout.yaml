@@ -8257,6 +8257,11 @@ projects:
     post:
       - python-manilaclient-coverage
 
+  - name: openstack/python-midonetclient
+    template:
+      - name: merge-check
+      - name: noop-jobs
+
   - name: openstack/python-mistralclient
     template:
       - name: merge-check
